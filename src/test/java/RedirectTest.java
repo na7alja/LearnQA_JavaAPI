@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 public class RedirectTest {
     @Test
-    public void testRedirectJson() {
+    public void testRedirect() {
 
         Response response = RestAssured
                 .given()
